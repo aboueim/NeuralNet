@@ -9,16 +9,16 @@ In this project I intend to develop a model that helps Alphabet Soup, an investm
 
 - In this model I considered the "IS_SUCCESSFUL" feature as the target variable.
  
-- All other variables except the target variable, and those removed in the preprocessing part are used as inputs (features) in the model.
-  - 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'SPECIAL_CONSIDERATIONS'
+- All other variables except the target variable, and those removed in the preprocessing part are used as inputs (features) in the model. Note: I truned "INCOME_AMT" to a categorical variable due to its improper format.
+  - 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'SPECIAL_CONSIDERATIONS', "INCOME_AMT"
    
-- "EIN", "NAME", and "INCOME_AMT" (due to its improper format) were removed from the model.
+- "EIN", "NAME" were removed from the model.
  
 - As was instructed, in the initial model I entered a single input layer, two hidden layers (first layer: 80 neurons" and the second layer: 30 neurons), and one output layer.
  
 - The initial model achieved an accuracy of **72.69%** which was close to the specified 75% accuracy limit.
  
-- I tried different changes to the input data and the model to increase the model accuracy. First, I removed the "INCOME_AMT" feature due to its improper format. Then, I increased the number of bins for categorical variables with more than 10 unique values to allow for inclusion of more nuances in the model. I also added a third hidden layer (also checked 4 and 5 hidden layers which were not helpful), increased the number of neurons in the hidden layers (up to 300), increased the number of epochs (up to 200), and modified activation functions. Finally, I also tested other optimizers (adamx and Nadam). Unfortunately, none of the changes made could increase model accuracy (**73.47%** accuracy of the optimized model) to above 75%. Below I added the screenshot of the accuracy output for the base and optimized models.
+- I tried different changes to the input data and the model to increase the model accuracy. First, I changed the "INCOME_AMT" feature's type to object due to its improper format. Then, I increased the number of bins for categorical variables with more than 10 unique values to allow for inclusion of more nuances in the model. I also added a third hidden layer (also checked 4 and 5 hidden layers which were not helpful), increased the number of neurons in the hidden layers (up to 300), increased the number of epochs (up to 200), and modified activation functions. Finally, I also tested other optimizers (adamx and Nadam). Unfortunately, none of the changes made could increase model accuracy (**73.47%** accuracy of the optimized model) to above 75%. Below I added the screenshot of the accuracy output for the base and optimized models.
  
 ### Base model result
 ![This is an image](Images/Base_Model_Accuracy.png)
