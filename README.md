@@ -35,6 +35,7 @@ Below are a summary of the results obtained after all analyses.
 2. The model accuracy only slightly improved when the number of neurons per hidden layer increased.
 3. Adding additional hidden layer was only effective when the third layer was added.
 4. Increasing the number of epoch could slightly improve the model accuracy.
+5. Although minutely, additional number of bins were helpful in increasing the model performance.
 
 ### Recommendation
 
