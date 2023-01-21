@@ -24,7 +24,7 @@ In this project I intend to develop a model that helps Alphabet Soup, an investm
 ![This is an image](Images/Base_Model_Accuracy.png)
  
 ### Optimized model result
-![This is an image](Base_Model_Accuracy.png)
+![This is an image](Images/Optimized_Model_Accuracy.png)
 
 
 ## Summary
