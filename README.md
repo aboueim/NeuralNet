@@ -34,7 +34,7 @@ Below are a summary of the results obtained after all analyses.
 1. The ReLU activation function proved to be the best for hidden layers and sigmoid the best function for the output layer.
 2. The model accuracy only slightly improved when the number of neurons per hidden layer increased.
 3. Adding additional hidden layer was only effective when the third layer was added.
-4. Increasing the number of epoch could slightlyimprove the model accuracy.
+4. Increasing the number of epoch could slightly improve the model accuracy.
 
 ### Recommendation
 
