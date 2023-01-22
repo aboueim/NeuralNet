@@ -23,7 +23,7 @@ In this project, I intend to develop a predictive model that helps Alphabet Soup
 ### Compiling, Training, and Evaluating the Model
  
  * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-   - As was instructed, in the base model I entered a single input layer (all features), two hidden layers (first layer: 80 neurons" and the second layer: 30 neurons), and one output layer (target).
+   - As was instructed, in the base model I entered a single input layer (all features), two hidden layers (first layer: 80 neurons" and the second layer: 30 neurons), and one output layer (target). I followed the general rule of thumb to select the number of neurons: the number of neurons to be two to three times of the number of features (in out case, 41 input features after encoding); the number of hidden neurons should be between the size of the input layer and the size of the output layer
  
  * Were you able to achieve the target model performance?
    - The base model achieved an accuracy of **72.69%** which was close to the specified 75% accuracy limit.
