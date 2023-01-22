@@ -6,22 +6,30 @@ In this project, I intend to develop a predictive model that helps Alphabet Soup
  
 ## Results
 
-1. Data Preprocessing
- * What variable(s) are considered the target(s) for your model?
+### Data Preprocessing
+ 
+* What variable(s) are considered the target(s) for your model?
     - In this model I considered the "IS_SUCCESSFUL" feature as the target variable.
   
-   * What variable(s) are considered to be the features for your model?
-    - All other variables except the target variable, and those removed in the preprocessing part are used as inputs (features) in the model. Note: 
+ * What variable(s) are considered to be the features for your model?
+    - All other variables except the target variable, and those removed in the preprocessing part are used as inputs (features) in the model.
+      Features: 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'SPECIAL_CONSIDERATIONS', "INCOME_AMT" 
+
+    Note: "EIN", "NAME" were removed from the model. 
    
-   * What variable(s) are neither targets nor features, and should be removed from the input data?  
+ * What variable(s) are neither targets nor features, and should be removed from the input data?  
     - I truned "INCOME_AMT" to a categorical variable due to its improper format.
   
-  
-  - 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'SPECIAL_CONSIDERATIONS', "INCOME_AMT"
-   
-- "EIN", "NAME" were removed from the model.
+### Compiling, Training, and Evaluating the Model
  
-- As was instructed, in the initial model I entered a single input layer, two hidden layers (first layer: 80 neurons" and the second layer: 30 neurons), and one output layer.
+ * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+ 
+ * Were you able to achieve the target model performance?
+   
+ 
+ * What steps did you take to try and increase model performance?   
+    - As was instructed, in the initial model I entered a single input layer, two hidden layers (first layer: 80 neurons" and the second layer: 30 neurons), and one output layer.
  
 - The initial model achieved an accuracy of **72.69%** which was close to the specified 75% accuracy limit.
  
