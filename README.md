@@ -7,7 +7,7 @@ In this project, I intend to develop a predictive model that helps Alphabet Soup
 ## Results
 
 1. Data Preprocessing
-   * What variable(s) are considered the target(s) for your model?
+ * What variable(s) are considered the target(s) for your model?
     - In this model I considered the "IS_SUCCESSFUL" feature as the target variable.
   
    * What variable(s) are considered to be the features for your model?
