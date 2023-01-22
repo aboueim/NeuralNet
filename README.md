@@ -18,15 +18,15 @@ In this project, I intend to develop a predictive model that helps Alphabet Soup
  * What variable(s) are neither targets nor features, and should be removed from the input data?  
     - "EIN", "NAME" were removed from the model.
     
-    **Note:**: I truned "INCOME_AMT" to a categorical variable due to its improper format.
+    **Note:**: I also truned "INCOME_AMT" to a categorical variable due to its improper format.
   
 ### Compiling, Training, and Evaluating the Model
  
  * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-   - As was instructed, in the initial model I entered a single input layer, two hidden layers (first layer: 80 neurons" and the second layer: 30 neurons), and one output layer.
+   - As was instructed, in the base model I entered a single input layer (all features), two hidden layers (first layer: 80 neurons" and the second layer: 30 neurons), and one output layer (target).
  
  * Were you able to achieve the target model performance?
-   - The initial model achieved an accuracy of **72.69%** which was close to the specified 75% accuracy limit.
+   - The base model achieved an accuracy of **72.69%** which was close to the specified 75% accuracy limit.
  
  * What steps did you take to try and increase model performance?
  
