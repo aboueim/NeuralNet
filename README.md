@@ -13,12 +13,11 @@ In this project, I intend to develop a predictive model that helps Alphabet Soup
   
  * What variable(s) are considered to be the features for your model?
     - All other variables except the target variable, and those removed in the preprocessing part are used as inputs (features) in the model.
-      Features: 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'SPECIAL_CONSIDERATIONS', "INCOME_AMT" 
-
-    Note: "EIN", "NAME" were removed from the model. 
+      **Features:** 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'SPECIAL_CONSIDERATIONS', "INCOME_AMT"  
    
  * What variable(s) are neither targets nor features, and should be removed from the input data?  
-    - I truned "INCOME_AMT" to a categorical variable due to its improper format.
+    "EIN", "NAME" were removed from the model.
+    **Note:**: I truned "INCOME_AMT" to a categorical variable due to its improper format.
   
 ### Compiling, Training, and Evaluating the Model
  
