@@ -52,4 +52,4 @@ Below are a summary of the results obtained after all analyses.
 
 ### Recommendation
 
-It looks that the model hardly can be improved using the available data. To enhance model performance I suggest that the company either use a larger dataset with additional features that allow the model to decipher the inherent complexity of the data or alternatively employ another modeling technique such as super vector machines or random forrest to see if the they result in higher performance (given their potential to deal with lower number of datapoints and features).
+It looks that the model hardly can be improved using the available data. To enhance model performance I suggest that the company either use a larger dataset with additional features that allow the model to decipher the inherent complexity of the data with higher predictive power, or alternatively employ another modeling technique such as super vector machines or random forrest to see if the they result in higher performance (given their potential to deal with lower number of datapoints and features).
